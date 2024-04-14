@@ -1,5 +1,6 @@
 {
-  "routes": [ {"source": "/",       "destination": "/refund-policy",       "permanent": true     }
+  "routes": [ {"source": "/",       "destination": "www.raghasdairy.com",       "permanent": true     }
+  ],
     {
       "src": "/(.*)",
       "dest": "https://storelax.co/$1"
