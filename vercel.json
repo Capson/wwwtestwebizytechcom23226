@@ -1,5 +1,5 @@
 {
-  "redirects": [{"source": "/",       "destination": "/en",       "permanent": true     }
+  "redirects": [{"source": "/",       "destination": "www.raghasdairy.com",       "permanent": true     }
 ],
   "rewrites": [
     {
