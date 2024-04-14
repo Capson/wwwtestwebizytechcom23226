@@ -1,9 +1,11 @@
 {
-  "routes": [ {"source": "/",       "destination": "www.raghasdairy.com",       "permanent": true     }
-  ],
+  "redirects": [{"source": "/",       "destination": "/en",       "permanent": true     }
+],
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "https://storelax.co/$1"
- }
+      "source": "/(.*)",
+      "destination": "https://storelax.co/$1"
+    }
   ]
 }
+    
